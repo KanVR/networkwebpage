@@ -1,120 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravi Varma Kanumuri - Software Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravi Varma Kanumuri - Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
-<header>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
     <h1>Ravi Varma Kanumuri</h1>
     <p>Computer Science and Information Systems, M.S.</p>
-</header>
+  </header>
 
-<nav>
+  <nav aria-label="Primary">
     <a href="#about">About Me</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
-</nav>
+  </nav>
 
-<div class="container">
-    <!-- About Me Section -->
+  <main id="main" class="container">
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Ravi, a passionate software developer and data analytics enthusiast. Currently, I'm pursuing a Master's degree in Computer Science with a focus on Data Analytics and Software Engineering. I have hands-on experience with both frontend and backend technologies, and I'm always eager to learn new tools to bring value to innovative projects.</p>
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Ravi, a passionate software developer and data analytics enthusiast. Currently, I'm pursuing a Master's
+        degree in Computer Science with a focus on Data Analytics and Software Engineering. I have hands-on experience
+        with both frontend and backend technologies, and I'm always eager to learn new tools to bring value to innovative projects.
+      </p>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skills-card">
-                <img src="images/javascriptimg.png" alt="JavaScript Icon">
-                <h4>JavaScript</h4>
-            </div>
-            <div class="skills-card">
-                <img src="images/reactimg.png" alt="React Icon">
-                <h4>React</h4>
-            </div>
-            <div class="skills-card">
-                <img src="images/nodejsimg.png" alt="Node.js Icon">
-                <h4>Node.js</h4>
-            </div>
-            <div class="skills-card">
-                <img src="images/pythonimg.png" alt="Python Icon">
-                <h4>Python</h4>
-            </div>
-            <div class="skills-card">
-                <img src="images/mssqlimg.webp" alt="SQL Icon">
-                <h4>SQL</h4>
-            </div>
-            <div class="skills-card">
-                <img src="images/gitimg.webp" alt="Git Icon">
-                <h4>Git</h4>
-            </div>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skills-card">
+          <img src="images/javascriptimg.png" alt="JavaScript" loading="lazy" />
+          <h3>JavaScript</h3>
         </div>
+        <div class="skills-card">
+          <img src="images/reactimg.png" alt="React" loading="lazy" />
+          <h3>React</h3>
+        </div>
+        <div class="skills-card">
+          <img src="images/nodejsimg.png" alt="Node.js" loading="lazy" />
+          <h3>Node.js</h3>
+        </div>
+        <div class="skills-card">
+          <img src="images/pythonimg.png" alt="Python" loading="lazy" />
+          <h3>Python</h3>
+        </div>
+        <div class="skills-card">
+          <img src="images/mssqlimg.webp" alt="SQL" loading="lazy" />
+          <h3>SQL</h3>
+        </div>
+        <div class="skills-card">
+          <img src="images/gitimg.webp" alt="Git" loading="lazy" />
+          <h3>Git</h3>
+        </div>
+      </div>
     </section>
 
     <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-        <div class="project-card">
-            <div class="project-info">
-                <h4>Library Management System</h4>
-                <p>This web application manages library operations, including book checkouts, membership renewals, and item inventory management.</p>
-                <ul class="project-technologies">
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>MySQL</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Tailwind CSS</li>
-                </ul>
-                <a href="https://mis-565-front-end.vercel.app/" target="_blank" class="project-link">View Project ></a>
-            </div>
-        </div>
-    </div>
-</section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project-card">
+          <div class="project-info">
+            <h3>Library Management System</h3>
+            <p>
+              This web application manages library operations, including book checkouts, membership renewals, and item inventory management.
+            </p>
 
-<!-- Experience Section -->
-<section id="experience">
-    <h2>Experience</h2>
-    <div class="experience">
-        <div class="experience-card">
-            <h4>Associate Systems Engineer</h4>
-            <h5>IBM</h5>
-            <p>April 2021 - May 2022</p>
-            <ul class="experience-responsibilities">
-                <li>Maintaining weekly reports of the Support Team for a Banking Client, Resolving their Issues swiftly and with perfection</li>
-                <li>Collaborated with the Development Team, Management Team to make decisions and keep everyone on track when issues arose.</li>
-                <li>Worked on a Web Application as skill development on .NET Full stack development.</li>
+            <ul class="project-technologies" aria-label="Technologies used">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>MySQL</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Tailwind CSS</li>
             </ul>
-        </div>
-    </div>
-</section>
 
-<!-- Contact Section -->
-<section id="contact">
-    <h1>Contact Information</h1>
-    <div class="contact-cards">
+            <a
+              href="https://mis-565-front-end.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+            >
+              View Project &gt;
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience">
+        <article class="experience-card">
+          <h3>Associate Systems Engineer</h3>
+          <p><strong>IBM</strong></p>
+          <p>April 2021 - May 2022</p>
+
+          <ul class="experience-responsibilities">
+            <li>Maintained weekly reports for a banking client support team and resolved issues quickly.</li>
+            <li>Collaborated with development and management teams to keep work on track when issues arose.</li>
+            <li>Worked on a web application to develop .NET full-stack skills.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-cards">
         <div class="contact-card">
-            <a href="https://www.linkedin.com/in/ravi-varma-kanumuri/" target="_blank">LinkedIn</a>
+          <a
+            href="https://www.linkedin.com/in/ravi-varma-kanumuri/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
         </div>
         <div class="contact-card">
-            <a href="mailto:ravi.kanumuri@gmail.com">E-mail</a>
+          <a href="mailto:ravi.kanumuri@gmail.com">Email</a>
         </div>
-    </div>
-</section>
-</div>
+      </div>
+    </section>
+  </main>
 
-<footer>
-    <p>&copy; 2024 Ravi Varma Kanumuri | <a href="https://github.com/Ravi-Varma-Kanumuri">GitHub</a></p>
-    <a href="#" >Back to Top</a>
-</footer>
-
+  <footer>
+    <p>&copy; 2024 Ravi Varma Kanumuri | <a href="https://github.com/Ravi-Varma-Kanumuri" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    <a href="#top">Back to Top</a>
+  </footer>
 </body>
 </html>
